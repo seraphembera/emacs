@@ -17,7 +17,7 @@
 
 
 ;; custom.el
-(setq custom-file (expand-file-name "~/.emacs.d/lisp/custom.el/"))
+(setq custom-file (expand-file-name "~/.emacs.d/lisp/custom.el"))
 (load custom-file 'no-error 'no-message)
 
 
