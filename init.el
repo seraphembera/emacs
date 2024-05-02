@@ -4,3 +4,4 @@
 (require 'init-basic)
 (require 'init-ui)
 (require 'init-packages)
+(require 'init-keybindings)
