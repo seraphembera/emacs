@@ -4,6 +4,9 @@
 (tool-bar-mode -1)
 ;; 关闭滚动条
 (scroll-bar-mode -1)
+;; 显示相对行号
+(setq display-line-numbers-type 'relative)
+(global-display-line-numbers-mode t)
 ;; 关闭启动动画
 (setq inhibit-startup-message t)
 ;; 关闭自动保存文件
