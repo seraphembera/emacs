@@ -1,5 +1,6 @@
-;; 使用清华源
+;; 换镜像源
 (require 'package)
+
 (setq package-archives '(("gnu"    . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
                          ("nongnu" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/nongnu/")
                          ("melpa"  . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")))
@@ -17,10 +18,11 @@
 ;; restart-emacs插件
 (require 'package-restart-emacs)
 
+;; genaral插件
+(require 'package-general)
+
 ;; evil插件
 (require 'package-evil)
-
-
 
 
 (provide 'init-packages)
