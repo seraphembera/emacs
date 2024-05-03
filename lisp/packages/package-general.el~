@@ -1,4 +1,0 @@
-(use-package general)
-
-
-(provide 'package-general)
