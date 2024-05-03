@@ -24,5 +24,10 @@
 ;; evil插件
 (require 'package-evil)
 
+;; ace-window插件
+(require 'package-ace-window)
+
+;; ivy插件
+(require 'package-ivy)
 
 (provide 'init-packages)
