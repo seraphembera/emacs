@@ -6,7 +6,6 @@
   (evil-mode)
 
   ;; keybindings
-  (define-key evil-normal-state-map "ff" 'find-file)
   ;; 使用jk退出insert-state
   (general-def 'insert
 	"k" (general-key-dispatch 'self-insert-command

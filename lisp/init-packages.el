@@ -17,17 +17,17 @@
 
 ;; restart-emacs插件
 (require 'package-restart-emacs)
-
 ;; genaral插件
 (require 'package-general)
-
 ;; evil插件
 (require 'package-evil)
-
 ;; ace-window插件
 (require 'package-ace-window)
-
 ;; ivy插件
 (require 'package-ivy)
+;; awesome-tab插件
+(require 'package-awesome-tab)
+;; all-the-icons插件
+(require 'package-all-the-icons)
 
 (provide 'init-packages)
