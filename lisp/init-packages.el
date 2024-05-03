@@ -12,17 +12,13 @@
 ;; 安装use-package
 (package-install 'use-package)
 
-;; 安装restart-emacs
-(use-package restart-emacs
-  :ensure t)
+(add-to-list 'load-path "~/.emacs.d/lisp/packages")
 
-;; evil配置
-(use-package evil
-  :ensure t
-  :init
-  (evil-mode)
-  )
+;; restart-emacs插件
+(require 'package-restart-emacs)
 
+;; evil插件
+(require 'package-evil)
 
 
 
