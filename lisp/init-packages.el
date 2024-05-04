@@ -32,7 +32,7 @@
 ;; all-the-icons插件
 (require 'package-all-the-icons)
 ;; simple插件
-(require 'package-simple)
+;;(require 'package-simple)
 ;; keycast插件
 (require 'package-keycast)
 ;; doom-modeline插件
