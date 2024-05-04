@@ -66,7 +66,6 @@ it is disabled.
 
 (fn &optional ARG)" t)
 (register-definition-prefixes "ivy-rich" '("ivy-rich-"))
-
 
 ;;; End of scraped data
 

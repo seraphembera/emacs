@@ -1,5 +1,10 @@
 ;; 设置字体
 (set-face-attribute 'default nil :font (font-spec :family "JetBrainsMono NF Light" :size 22))
+(use-package nerd-icons
+  :load-path "~/.emacs.d/lisp/local/nerd-icons"
+  :custom
+  (nerd-icons-font-family "JetBrainsMono NF Light")
+  )
 ;; 设置透明度
 (add-to-list 'default-frame-alist '(alpha-background . 95))
 (setq command-error-function #'my-command-error-function)
@@ -17,10 +22,10 @@
   ;; Enable custom neotree theme (all-the-icons must be installed!)
   ;; (doom-themes-neotree-config)
   ;; or for treemacs users
-  (setq doom-themes-treemacs-theme "doom-atom") ; use "doom-colors" for less minimal icon theme
-  (doom-themes-treemacs-config)
+  ;; (setq doom-themes-treemacs-theme "doom-atom") ; use "doom-colors" for less minimal icon theme
+  ;; (doom-themes-treemacs-config)
   ;; Corrects (and improves) org-mode's native fontification.
-  (doom-themes-org-config)
+  ;; (doom-themes-org-config)
   )
 
 ;; doom-modeline插件

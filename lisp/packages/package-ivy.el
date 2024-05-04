@@ -19,5 +19,4 @@
  )
 
 
-
 (provide 'package-ivy)

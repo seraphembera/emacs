@@ -41,7 +41,6 @@ it is disabled.
 (autoload 'nerd-icons-ivy-rich-reload "nerd-icons-ivy-rich" "\
 Reload `nerd-icons-ivy-rich'." t)
 (register-definition-prefixes "nerd-icons-ivy-rich" '("nerd-icons-ivy-rich-"))
-
 
 ;;; End of scraped data
 

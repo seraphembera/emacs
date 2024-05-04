@@ -22,7 +22,6 @@
 (require 'package-evil-nerd-commenter)
 ;; treemacs插件
 (require 'package-treemacs)
-;; nerd-icons-ivy-rich插件
-(require 'package-nerd-icons-ivy-rich)
+
 
 (provide 'init-packages)
