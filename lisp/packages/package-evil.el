@@ -28,6 +28,11 @@
    ;; switch buffer
    "bb" 'ivy-switch-buffer
    )
+  (general-define-key
+   :states '(normal visual)
+   :prefix "gg"
+   "" 'vterm-toggle
+   )
   )
 
 (provide 'package-evil)

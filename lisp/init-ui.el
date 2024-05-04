@@ -6,7 +6,7 @@
   (nerd-icons-font-family "JetBrainsMono NF Light")
   )
 ;; 设置透明度
-(add-to-list 'default-frame-alist '(alpha-background . 95))
+(add-to-list 'default-frame-alist '(alpha-background . 90))
 (setq command-error-function #'my-command-error-function)
 
 

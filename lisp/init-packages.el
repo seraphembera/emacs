@@ -26,6 +26,8 @@
 ;; (require 'package-dashboard)
 ;; vterm插件
 (require 'package-vterm)
+;; posframe插件
+(require 'package-posframe)
 
 
 (provide 'init-packages)
