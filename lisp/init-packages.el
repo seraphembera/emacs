@@ -4,6 +4,8 @@
 (require 'package-restart-emacs)
 ;; genaral插件
 (require 'package-general)
+;; all-the-icons插件
+(require 'package-all-the-icons)
 ;; evil插件
 (require 'package-evil)
 ;; undo-tree插件
@@ -14,14 +16,16 @@
 (require 'package-ivy)
 ;; awesome-tab插件
 (require 'package-awesome-tab)
-;; all-the-icons插件
-(require 'package-all-the-icons)
 ;; simple插件
 ;;(require 'package-simple)
 ;; evil-nerd-commenter插件
 (require 'package-evil-nerd-commenter)
 ;; treemacs插件
 (require 'package-treemacs)
+;; dashboard插件
+;; (require 'package-dashboard)
+;; vterm插件
+(require 'package-vterm)
 
 
 (provide 'init-packages)

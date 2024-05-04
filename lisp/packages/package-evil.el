@@ -25,6 +25,8 @@
    "ff" 'find-file
    "sf" 'save-buffer
    ;; window
+   ;; switch buffer
+   "bb" 'ivy-switch-buffer
    )
   )
 
