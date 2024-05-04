@@ -1,6 +1,2 @@
 
-
-
-
-
 (provide 'init-keybindings)

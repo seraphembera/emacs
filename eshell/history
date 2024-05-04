@@ -1,0 +1,11 @@
+ls
+ls
+cd .emacs.d/
+ls
+cd lisp/packages/
+ls
+rm package-keycast.el~
+ls
+cd ../../
+ls
+./update.sh 

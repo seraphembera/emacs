@@ -2,6 +2,6 @@
 
 (require 'init-startup)
 (require 'init-basic)
-(require 'init-ui)
 (require 'init-packages)
+(require 'init-ui)
 (require 'init-keybindings)
