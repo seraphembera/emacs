@@ -33,6 +33,7 @@
    "nn" 'ace-window
    ;; switch buffer
    ;; "bb" 'ivy-switch-buffer
+   "kb" 'kill-buffer
    )
 
   (general-define-key
@@ -49,6 +50,7 @@
    "gg" 'vterm-toggle
    "bb" 'ivy-switch-buffer
    "nn" "C-x o"
+   "P" 'vterm-yank
    )
 
   (general-define-key

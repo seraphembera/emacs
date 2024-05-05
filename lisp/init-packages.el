@@ -32,6 +32,12 @@
 (require 'package-posframe)
 ;; which-key插件
 (require 'package-which-key)
+;; popwin插件
+;; (require 'package-popwin)
+;; shell-pop插件
+;; (require 'package-shell-pop-el)
+;; projectile插件
+(require 'package-projectile)
 
 
 (provide 'init-packages)

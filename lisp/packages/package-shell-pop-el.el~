@@ -1,0 +1,7 @@
+(use-package shell-pop
+  :load-path "~/.emacs.d/lisp/loacl/shell-pop-el"
+  :init
+  )
+
+
+(provide 'package-shell-pop-el)
