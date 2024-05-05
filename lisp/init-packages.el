@@ -15,13 +15,15 @@
 ;; ivy插件
 (require 'package-ivy)
 ;; awesome-tab插件
-(require 'package-awesome-tab)
+;; (require 'package-awesome-tab)
 ;; simple插件
 ;;(require 'package-simple)
 ;; evil-nerd-commenter插件
 (require 'package-evil-nerd-commenter)
 ;; treemacs插件
 (require 'package-treemacs)
+;; neotree插件
+;; (require 'package-neotree)
 ;; dashboard插件
 ;; (require 'package-dashboard)
 ;; vterm插件

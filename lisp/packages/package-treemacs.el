@@ -22,7 +22,6 @@
           treemacs-hide-dot-git-directory          t
           treemacs-indentation                     2
           treemacs-indentation-string              " "
-          treemacs-is-never-other-window           nil
           treemacs-max-git-entries                 5000
           treemacs-missing-project-action          'ask
           treemacs-move-forward-on-expand          nil
@@ -58,6 +57,8 @@
           treemacs-workspace-switch-cleanup        nil)
     )
 
+
+  
   (use-package treemacs-evil
     :after (treemacs evil)
     :ensure t)
@@ -67,7 +68,6 @@
     :config
     (treemacs-load-theme "nerd-icons"))
   )
-
 
 
 (provide 'package-treemacs)

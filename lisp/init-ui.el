@@ -34,7 +34,7 @@
 
   :init
   (doom-modeline-mode t)
-  (setq doom-modeline-height 25)
+  (setq doom-modeline-height 40)
   (setq doom-modeline-buffer-file-name-style 'file-name)
   (setq doom-modeline-icon t)
   (setq doom-modeline-buffer-state-icon nil)

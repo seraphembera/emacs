@@ -28,10 +28,23 @@
    ;; switch buffer
    "bb" 'ivy-switch-buffer
    )
+
+  (general-define-key
+   :states '(visual)
+   :prefix "SPC"
+   "jk" 'evil-normal-state
+   )
+
   (general-define-key
    :states '(normal visual)
    :prefix "gg"
    "" 'vterm-toggle
+   )
+
+  (general-define-key
+   :states '(normal visual)
+   :prefix "tt"
+   "" 'treemacs-select-window
    )
   )
 
