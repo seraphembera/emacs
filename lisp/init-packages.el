@@ -30,6 +30,8 @@
 (require 'package-vterm)
 ;; posframe插件
 (require 'package-posframe)
+;; which-key插件
+(require 'package-which-key)
 
 
 (provide 'init-packages)

@@ -25,8 +25,30 @@
    "ff" 'find-file
    "sf" 'save-buffer
    ;; window
+   "ks" 'delete-window
+   "kn" 'delete-other-windows
+   "kt" 'treemacs
+   "sv" 'split-window-right
+   "sh" 'split-window-below
+   "nn" 'ace-window
    ;; switch buffer
+   ;; "bb" 'ivy-switch-buffer
+   )
+
+  (general-define-key
+   :states '(normal visual)
+   "J" "5j"
+   "K" "5k"
+   "H" 'evil-backward-word-begin
+   "L" 'evil-forward-word-begin
+   "C-h" 'move-beginning-of-line
+   "C-l" 'move-end-of-line
+   "C-j" "5j"
+   "C-k" "5k"
+   "tt" 'treemacs-toggle
+   "gg" 'vterm-toggle
    "bb" 'ivy-switch-buffer
+   "nn" "C-x o"
    )
 
   (general-define-key
@@ -34,18 +56,13 @@
    :prefix "SPC"
    "jk" 'evil-normal-state
    )
+  )
 
-  (general-define-key
-   :states '(normal visual)
-   :prefix "gg"
-   "" 'vterm-toggle
-   )
-
-  (general-define-key
-   :states '(normal visual)
-   :prefix "tt"
-   "" 'treemacs-select-window
-   )
+(defun treemacs-toggle ()
+  (interactive)
+  (treemacs)
+  (evil-visual-state)
+  (evil-normal-state)
   )
 
 (provide 'package-evil)
