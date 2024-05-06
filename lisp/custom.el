@@ -4,7 +4,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(treemacs-nerd-icons all-the-icons-nerd-fonts nerd-icons-ivy-rich undo-tree doom-modeline keycast all-the-icons awesome-tab treemacs-tab-bar treemacs-persp treemacs-magit treemacs-icons-dired treemacs-projectile treemacs-evil treemacs ivy ace-window general key-chord evil restart-emacs use-package))
+   '(org-bullets treemacs-nerd-icons all-the-icons-nerd-fonts nerd-icons-ivy-rich undo-tree doom-modeline keycast all-the-icons awesome-tab treemacs-tab-bar treemacs-persp treemacs-magit treemacs-icons-dired treemacs-projectile treemacs-evil treemacs ivy ace-window general key-chord evil restart-emacs use-package))
  '(shell-pop-autocd-to-working-dir t)
  '(shell-pop-cleanup-buffer-at-process-exit t)
  '(shell-pop-default-directory "~/")

@@ -5,3 +5,4 @@
 (require 'init-packages)
 (require 'init-ui)
 (require 'init-keybindings)
+(require 'init-org)

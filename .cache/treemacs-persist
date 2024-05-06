@@ -4,3 +4,8 @@
 * No Tab
 ** seraphembera
  - path :: ~
+* org
+** org
+ - path :: ~/work/org
+** .emacs.d
+ - path :: ~/.emacs.d

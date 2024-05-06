@@ -1,0 +1,20 @@
+(use-package org
+  :ensure t
+  :init
+  
+  ;; 自动换行
+  (add-hook 'org-mode-hook
+	    (lambda()
+	      (setq truncate-lines nil))) 
+  )
+
+(use-package org-bullets
+  :ensure t
+  :custom
+  (org-bullets-bullet-list '("◉" "☯" "○" "☯" "✸" "☯" "✿" "☯" "✜" "☯" "◆" "☯" "▶"))
+  (org-ellipsis "⤵")
+  :hook (org-mode . org-bullets-mode))
+
+;; see https://github.com/lujun9972/emacs-document/blob/master/org-mode/%E7%BE%8E%E5%8C%96%20Org%20mode.org
+
+(provide 'init-org)
