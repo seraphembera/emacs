@@ -1,13 +1,12 @@
 ;; 设置字体
-(set-face-attribute 'default nil :font (font-spec :family "JetBrainsMono NF Light" :size 22))
+(set-face-attribute 'default nil :font (font-spec :family "JetBrainsMono NF Medium" :size 24))
 (use-package nerd-icons
   :load-path "~/.emacs.d/lisp/local/nerd-icons"
   :custom
-  (nerd-icons-font-family "JetBrainsMono NF Light")
+  (nerd-icons-font-family "JetBrainsMono NF Medium")
   )
 ;; 设置透明度
-(add-to-list 'default-frame-alist '(alpha-background . 90))
-(setq command-error-function #'my-command-error-function)
+(add-to-list 'default-frame-alist '(alpha-background . 70))
 
 
 ;; 安装主题

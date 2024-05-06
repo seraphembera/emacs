@@ -4,6 +4,10 @@
 (tool-bar-mode -1)
 ;; 关闭滚动条
 (scroll-bar-mode -1)
+;; Give some breathing room
+(set-fringe-mode 10)
+;; set up the visible bell
+(setq visible-bell nil)
 ;; 显示相对行号
 (dolist (mode '(text-mode-hook
                 prog-mode-hook
@@ -21,6 +25,8 @@
 ;; 简化yes or no
 (fset 'yes-or-no-p 'y-or-n-p)
 
+(use-package command-log-mode
+  :ensure t)
 
 ;; custom.el
 (setq custom-file (expand-file-name "~/.emacs.d/lisp/custom.el"))

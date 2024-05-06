@@ -6,14 +6,17 @@
                          ("melpa"  . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")))
 ;; (setq package-archives '(("gnu"   . "http://1.15.88.122/gnu/")
 ;;                            ("melpa" . "http://1.15.88.122/melpa/")))
-(package-initialize)
 
+
+(package-initialize)
 ;;防止反复调用 package-refresh-contents 会影响加载速度
-(when (not package-archive-contents)
+(unless package-archive-contents
   (package-refresh-contents))
+
 
 ;; 安装use-package
 (package-install 'use-package)
+(setq use-package-always-ensure t)
 
 
 (provide 'init-startup)
