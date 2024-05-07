@@ -5,7 +5,7 @@
 ;; 关闭滚动条
 (scroll-bar-mode -1)
 ;; Give some breathing room
-(set-fringe-mode 10)
+(set-fringe-mode 0)
 ;; set up the visible bell
 (setq visible-bell nil)
 ;; 显示相对行号
