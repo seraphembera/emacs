@@ -2,7 +2,7 @@
   :ensure t
   :config
 
-  (setq cwm-centered-window-width 80)
+  (setq cwm-centered-window-width 90)
   )
 
 

@@ -5,6 +5,7 @@
   :custom
   (nerd-icons-font-family "JetBrainsMono NF Medium")
   )
+(set-fontset-font t 'han (font-spec :family "Source Han Sans CN" :height 1.0))
 ;; 设置透明度
 (add-to-list 'default-frame-alist '(alpha-background . 70))
 

@@ -6,13 +6,14 @@
 (scroll-bar-mode -1)
 ;; Give some breathing room
 (set-fringe-mode 0)
+;; visual-line-mode
+(visual-line-mode 1)
 ;; set up the visible bell
 (setq visible-bell nil)
 ;; 开启自动换行
 (setq truncate-lines nil)
 ;; 显示相对行号
-(dolist (mode '(text-mode-hook
-		prog-mode-hook
+(dolist (mode '(prog-mode-hook
                 conf-mode-hook))
   (add-hook mode (lambda () (progn (display-line-numbers-mode 1) (setq display-line-numbers-type 'relative))))
   )
