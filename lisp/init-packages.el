@@ -19,7 +19,7 @@
 ;; treemacs插件
 (require 'package-treemacs)
 ;; dashboard插件
-;; (require 'package-dashboard)
+(require 'package-dashboard)
 ;; vterm插件
 ;; (require 'package-vterm)
 ;; posframe插件
@@ -32,10 +32,10 @@
 ;; (require 'package-eaf)
 ;; orderless插件
 ;; (require 'package-orderless)
-;; writeroom-mode插件
-;; (require 'package-writeroom-mode)
 ;; centered-window-mode插件
 (require 'package-centered-window-mode)
+;; awesome-pair插件
+;; (require 'package-awesome-pair)
 
 
 (provide 'init-packages)
