@@ -21,7 +21,7 @@
 ;; dashboard插件
 ;; (require 'package-dashboard)
 ;; vterm插件
-(require 'package-vterm)
+;; (require 'package-vterm)
 ;; posframe插件
 (require 'package-posframe)
 ;; which-key插件

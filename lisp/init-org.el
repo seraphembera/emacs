@@ -31,10 +31,9 @@
    '(("^ +\\([*]\\) "
       (0 (prog1 () (compose-region (match-beginning 1) (match-end 1) "◦"))))))
   )
-;; 自动换行
+;; org-mode-hook
 (add-hook 'org-mode-hook
 	  (lambda()
-	    (setq truncate-lines nil)
 	    (centered-window-mode 1)
 	    (visual-line-mode 1)
 	    )) 

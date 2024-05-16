@@ -1,1 +1,1 @@
-("~/work/org/" "~/.emacs.d/" "~/work/knowledge_base/")
+("~/.emacs.d/" "~/work/org/" "~/work/knowledge_base/")

@@ -15,7 +15,10 @@
 ;; 显示相对行号
 (dolist (mode '(prog-mode-hook
                 conf-mode-hook))
-  (add-hook mode (lambda () (progn (display-line-numbers-mode 1) (setq display-line-numbers-type 'relative))))
+  (add-hook mode (lambda ()
+		   (progn (display-line-numbers-mode 1)
+			  ;; (centered-window-mode 0)
+			  (setq display-line-numbers-type 'relative))))
   )
 ;; 关闭启动动画
 (setq inhibit-startup-message t)
