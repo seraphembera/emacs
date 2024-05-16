@@ -1,7 +1,0 @@
-(use-package awesome-pair
-  :load-path "~/.emacs.d/lisp/local/awesome-pair"
-  :init
-  )
-
-
-(provide 'package-writeroom-mode)

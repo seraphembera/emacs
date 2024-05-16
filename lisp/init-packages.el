@@ -35,7 +35,7 @@
 ;; centered-window-mode插件
 (require 'package-centered-window-mode)
 ;; awesome-pair插件
-;; (require 'package-awesome-pair)
+(require 'package-awesome-pair)
 
 
 (provide 'init-packages)
