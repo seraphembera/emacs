@@ -1,0 +1,7 @@
+(use-package posframe-project-term
+  :ensure nil
+  :load-path "~/.emacs.d/lisp/local/posframe-project-term"
+  :bind
+  (("C-c t" . posframe-project-term-toggle)))
+
+(provide 'package-posframe-project-term)

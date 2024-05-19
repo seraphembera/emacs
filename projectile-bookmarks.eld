@@ -1,1 +1,1 @@
-("~/.emacs.d/" "~/work/org/" "~/work/c_cpp/hello/" "~/work/knowledge_base/")
+("~/work/org/" "~/.emacs.d/" "~/work/rust/projects/guessing_game/" "~/.emacs.d/lisp/local/posframe-project-term/" "~/.emacs.d/lisp/local/vterm-posframe/" "~/work/rust/projects/hello_cargo/" "~/work/c_cpp/hello/" "~/work/knowledge_base/" "~/.emacs.d/lisp/local/vterm-toggle/")

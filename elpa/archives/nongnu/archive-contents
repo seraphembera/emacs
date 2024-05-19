@@ -42,13 +42,13 @@
 		 ("Jordon Biondo" . "jordonbiondo@gmail.com"))
 		(:commit . "33691c93ee302690e41f631f82083bcc15d229e8"))])
  (annotate .
-	   [(2 2 1)
+	   [(2 2 2)
 	    nil "annotate files without changing them" tar
 	    ((:url . "https://github.com/bastibe/annotate.el")
 	     (:maintainer
 	      ("Bastian Bechtold" . "bastibe.dev@mailbox.org")
 	      ("cage" . "cage-dev@twistfold.it"))
-	     (:commit . "a388c39231207f6234ca1af547dbd29995ee476f"))])
+	     (:commit . "deb43c7c429a021d16d6d67b82e7a3053a6eef67"))])
  (anti-zenburn-theme .
 		     [(2 5 1)
 		      nil "Low-contrast Zenburn-inverted theme" tar
@@ -489,7 +489,7 @@
 		   ("Fanael Linithien" . "fanael4@gmail.com"))
 		  (:commit . "82a28d8a85277cfe453af464603ea330eae41c05"))])
  (editorconfig .
-	       [(0 10 1)
+	       [(0 11 0)
 		((emacs
 		  (26 1))
 		 (nadvice
@@ -500,7 +500,7 @@
 		 (:maintainer "EditorConfig Team" . "editorconfig@googlegroups.com")
 		 (:authors
 		  ("EditorConfig Team" . "editorconfig@googlegroups.com"))
-		 (:commit . "ed760770ed5397120b3d68b69afc0778c48d3a47"))])
+		 (:commit . "f1531bab5b57e40759167b7e5db49acbbc09972f"))])
  (elixir-mode .
 	      [(2 5 0)
 	       ((emacs
@@ -1403,16 +1403,18 @@
 	      ("Aaron Smith" . "aaron-lua@gelatinous.com"))
 	     (:commit . "1cb83e691627fb92290d452cb08b6c5f73fe19b6"))])
  (macrostep .
-	    [(0 9 3)
+	    [(0 9 4)
 	     ((cl-lib
-	       (0 5)))
+	       (0 5))
+	      (compat
+	       (29)))
 	     "Interactive macro expander" tar
 	     ((:url . "https://github.com/emacsorphanage/macrostep")
 	      (:keywords "lisp" "languages" "macro" "debugging")
 	      (:maintainer "Jon Oddie" . "j.j.oddie@gmail.com")
 	      (:authors
 	       ("Jon Oddie" . "j.j.oddie@gmail.com"))
-	      (:commit . "81fcf3dafb761fed82c8c3b1c2dfe6956b62344d"))])
+	      (:commit . "31d4adcca4f08cfd7a45f85e691aaa7a9316b355"))])
  (magit .
 	[(3 3 0)
 	 ((emacs
@@ -1905,7 +1907,7 @@
 	       ("David Christiansen" . "david@davidchristiansen.dk"))
 	      (:commit . "1edda80e2e32b72e77f4f16ae5b83c312c68ee95"))])
  (racket-mode .
-	      [(1 0 20240419 71343)
+	      [(1 0 20240514 112412)
 	       ((emacs
 		 (25 1)))
 	       "Racket editing, REPL, and more" tar
@@ -2487,14 +2489,14 @@
 	     ((:url . "https://github.com/lewang/ws-butler")
 	      (:commit . "323b651dd70ee40a25accc940b8f80c3a3185205"))])
  (xah-fly-keys .
-	       [(25 2 20240427131540)
+	       [(25 5 20240515230030)
 		((emacs
 		  (27)))
 		"ergonomic modal keybinding minor mode." tar
 		((:url . "http://xahlee.info/emacs/misc/xah-fly-keys.html")
 		 (:keywords "convenience" "vi" "vim" "ergoemacs" "keybinding")
 		 (:maintainer "Xah Lee" . "xah@xahlee.org")
-		 (:commit . "ba9d9cbfd08545336888642ea48a6b658be417ac"))])
+		 (:commit . "c8a34178419058c0fcdb821ae6c958a1e7f5d95e"))])
  (xkcd .
        [(1 1)
 	((json

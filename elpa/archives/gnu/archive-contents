@@ -442,7 +442,7 @@
 		   ("Clemens Radermacher" . "clemera@posteo.net"))
 		  (:commit . "c4a1c745123b86c15ba7bb4858255b5252e8440a"))])
  (bufferlo .
-	   [(0 6)
+	   [(0 7)
 	    ((emacs
 	      (27 1)))
 	    "Manage frame/tab-local buffer lists" tar
@@ -451,7 +451,7 @@
 	     (:maintainer "Florian Rommel" . "mail@florommel.de")
 	     (:authors
 	      ("Florian Rommel" . "mail@florommel.de"))
-	     (:commit . "90ba743101424b7dd98dc773aedcfc3ee08df05a"))])
+	     (:commit . "9a856826bbf4f8e60263274d000e231a4c8c53bf"))])
  (bug-hunter .
 	     [(1 3 1)
 	      ((seq
@@ -682,7 +682,7 @@
 	    ("Daniel Mendler" . "mail@daniel-mendler.de"))
 	   (:commit . "8d4e8a366681def88751f5e9975738ecd3180deb"))])
  (consult .
-	  [(1 5)
+	  [(1 6)
 	   ((emacs
 	     (27 1))
 	    (compat
@@ -691,7 +691,21 @@
 	   ((:url . "https://github.com/minad/consult")
 	    (:keywords "matching" "files" "completion")
 	    (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
-	    (:commit . "d8888bb67f881a3c4855c9ce7224de18a7dc3901"))])
+	    (:commit . "6eba1a3fa8e13681091a30b2490a03bdce5f243a"))])
+ (consult-denote .
+		 [(0 0 0)
+		  ((emacs
+		    (28 1))
+		   (denote
+		    (2 3 0))
+		   (consult
+		    (1 4)))
+		  "Use Consult in tandem with Denote" tar
+		  ((:url . "https://github.com/protesilaos/consult-denote")
+		   (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
+		   (:authors
+		    ("Protesilaos Stavrou" . "info@protesilaos.com"))
+		   (:commit . "f605131c9add9128eeaf7adb359ba11a66a394e3"))])
  (consult-hoogle .
 		 [(0 2 1)
 		  ((emacs
@@ -853,7 +867,7 @@
 		 (:url . "https://elpa.gnu.org/packages/cycle-quotes.html")
 		 (:commit . "836b19b39651419876e65cdb1a91e3eef83cc4e7"))])
  (dape .
-       [(0 11 0)
+       [(0 11 1)
 	((emacs
 	  (29 1))
 	 (jsonrpc
@@ -861,7 +875,7 @@
 	"Debug Adapter Protocol for Emacs" tar
 	((:url . "https://github.com/svaante/dape")
 	 (:maintainer "Daniel Pettersson" . "daniel@dpettersson.net")
-	 (:commit . "f1224ebcc54305fe8cc40b545feedabcc032b3bd"))])
+	 (:commit . "957d460f3560d9bea572b9ab4fa15fdd9ea2acb1"))])
  (darkroom .
 	   [(0 3)
 	    ((cl-lib
@@ -1134,7 +1148,7 @@
 	    (:url . "https://elpa.gnu.org/packages/docbook.html")
 	    (:commit . "a59f87c0dc04bcfcf9f55a124658c2e7a585dbd2"))])
  (drepl .
-	[(0 2)
+	[(0 3)
 	 ((emacs
 	   (29 1))
 	  (comint-mime
@@ -1145,7 +1159,7 @@
 	  (:maintainer "Augusto Stoffel" . "arstoffel@gmail.com")
 	  (:authors
 	   ("Augusto Stoffel" . "arstoffel@gmail.com"))
-	  (:commit . "fc0b28b8b281899c2f00461bf9e83caf13330b54"))])
+	  (:commit . "07c4503763b5880f163b417194d580677f37a819"))])
  (dts-mode .
 	   [(1 0)
 	    ((emacs
@@ -1226,7 +1240,7 @@
 	       ("Markus Triska" . "triska@metalevel.at"))
 	      (:commit . "cfcdf9e42821d246b7fbc84877aa4ecacc184a1c"))])
  (eev .
-      [(20240505)
+      [(20240513)
        ((emacs
 	 (25 1)))
        "Support for e-scripts (eepitch blocks, elisp hyperlinks, etc)" tar
@@ -1235,7 +1249,7 @@
 	(:maintainer "Eduardo Ochs" . "eduardoochs@gmail.com")
 	(:authors
 	 ("Eduardo Ochs" . "eduardoochs@gmail.com"))
-	(:commit . "6546ced8f4003a5f05d2558bee1f9bb8045862be"))])
+	(:commit . "2bd9d441330aa782ecf645f931e62bd3f3f1ac64"))])
  (ef-themes .
 	    [(1 7 0)
 	     ((emacs
@@ -1307,16 +1321,16 @@
 		     (:url . "https://elpa.gnu.org/packages/electric-spacing.html")
 		     (:commit . "122ac5d08c3d3d91251752136abab9721d90e36c"))])
  (elisp-benchmarks .
-		   [(1 14)
+		   [(1 15)
 		    nil "elisp benchmarks collection" tar
 		    ((:keywords "languages" "lisp")
-		     (:maintainer "Andrea Corallo" . "akrl@sdf.org")
+		     (:maintainer "Andrea Corallo" . "acorallo@gnu.org")
 		     (:authors
-		      ("Andrea Corallo" . "akrl@sdf.org"))
+		      ("Andrea Corallo" . "acorallo@gnu.org"))
 		     (:url . "https://elpa.gnu.org/packages/elisp-benchmarks.html")
-		     (:commit . "70e38dbfa8f4acbdebfd0f417410d99f5031e05f"))])
+		     (:commit . "869a51d70200b2e86e0b78793f4a99c8e690b996"))])
  (ellama .
-	 [(0 9 1)
+	 [(0 9 3)
 	  ((emacs
 	    (28 1))
 	   (llm
@@ -1329,7 +1343,7 @@
 	   (:maintainer "Sergey Kostyaev" . "sskostyaev@gmail.com")
 	   (:authors
 	    ("Sergey Kostyaev" . "sskostyaev@gmail.com"))
-	   (:commit . "6e6ec8e28b8ce32ff207b1b026aaaeddc1bd8239"))])
+	   (:commit . "aefd87f22a4e54636f2a27a0a1736672df8afb9e"))])
  (emacs-gc-stats .
 		 [(1 4 2)
 		  ((emacs
@@ -1898,13 +1912,13 @@
 	     (:url . "https://elpa.gnu.org/packages/greenbar.html")
 	     (:commit . "9526f29d073c533c3e54f0a7597eef1587ffb99e"))])
  (gtags-mode .
-	     [(1 5)
+	     [(1 6)
 	      ((emacs
 		(28)))
 	      "GNU Global integration with xref, project and imenu." tar
 	      ((:url . "https://github.com/Ergus/gtags-mode")
 	       (:keywords "xref" "project" "imenu" "gtags" "global")
-	       (:commit . "627b2d458af9d72cc5bc638f133764e7a209333c"))])
+	       (:commit . "a4346a0d771442af39ac77895e5e22b4c72df9b3"))])
  (guess-language .
 		 [(0 0 1)
 		  ((cl-lib
@@ -2167,7 +2181,7 @@
 		(:url . "https://elpa.gnu.org/packages/jgraph-mode.html")
 		(:commit . "4e13f89fe8837b84d40b969e6a5431816180a747"))])
  (jinx .
-       [(1 6)
+       [(1 7)
 	((emacs
 	  (27 1))
 	 (compat
@@ -2178,7 +2192,7 @@
 	 (:maintainer "Daniel Mendler" . "mail@daniel-mendler.de")
 	 (:authors
 	  ("Daniel Mendler" . "mail@daniel-mendler.de"))
-	 (:commit . "f4abad42cd0bdcff62ac325a644cb8faad186a4b"))])
+	 (:commit . "3c36f1eb31713869ffbdbf55971671efa4f01966"))])
  (jit-spell .
 	    [(0 4)
 	     ((emacs
@@ -2387,7 +2401,7 @@
 	    ("Adam Porter" . "adam@alphapapa.net"))
 	   (:commit . "61c511541af474027c012de7063ddfdb3f8cc780"))])
  (llm .
-      [(0 12 3)
+      [(0 14 2)
        ((emacs
 	 (28 1)))
        "Interface to pluggable llm backends" tar
@@ -2395,7 +2409,7 @@
 	(:maintainer "Andrew Hyatt" . "ahyatt@gmail.com")
 	(:authors
 	 ("Andrew Hyatt" . "ahyatt@gmail.com"))
-	(:commit . "17c47d761e01fd49df6e1a8c453329c141d9f47d"))])
+	(:commit . "efe218ac13144ea8f062912da12ac8599162e705"))])
  (lmc .
       [(1 4)
        nil "Little Man Computer in Elisp" tar
@@ -2772,16 +2786,16 @@
 		("John Heidemann" . "johnh@isi.edu"))
 	       (:commit . "2a25d79f7e5d9ab7298ba40e11e78d1f2ded06d2"))])
  (notmuch-indicator .
-		    [(1 1 0)
+		    [(1 2 0)
 		     ((emacs
 		       (27 1)))
 		     "Display mode line indicator with notmuch-count(1) output" tar
-		     ((:url . "https://git.sr.ht/~protesilaos/notmuch-indicator")
+		     ((:url . "https://github.com/protesilaos/notmuch-indicator")
 		      (:keywords "convenience" "mail")
-		      (:maintainer "notmuch-indicator Development" . "~protesilaos/general-issues@lists.sr.ht")
+		      (:maintainer "Protesilaos Stavrou" . "info@protesilaos.com")
 		      (:authors
 		       ("Protesilaos Stavrou" . "info@protesilaos.com"))
-		      (:commit . "c50cf91ff137ef07db3b0ce4410fca7a3bc94452"))])
+		      (:commit . "7aa1da708aeb9f729e8e0a99ef65341b7344815e"))])
  (ntlm .
        [(2 1 0)
 	nil "NTLM (NT LanManager) authentication support" tar
@@ -2887,7 +2901,7 @@
 	       ("Omar Antolín Camarena" . "omar@matem.unam.mx"))
 	      (:commit . "3847f311077efa17951a786d2759f2639c5f43c8"))])
  (org .
-      [(9 6 29)
+      [(9 6 30)
        ((emacs
 	 (26 1)))
        "Outline-based notes management and organizer" tar
@@ -2896,7 +2910,7 @@
 	(:maintainer "Bastien Guerry" . "bzg@gnu.org")
 	(:authors
 	 ("Carsten Dominik" . "carsten.dominik@gmail.com"))
-	(:commit . "3d0deadf41e51d9b1ad5aeb5d45861df84c579c6"))])
+	(:commit . "071c6e986c424d2e496be7d0815d6e9cd83ae4e6"))])
  (org-contacts .
 	       [(1 1)
 		((emacs
@@ -3286,7 +3300,7 @@
 	    ("Protesilaos Stavrou" . "info@protesilaos.com"))
 	   (:commit . "f9d09afc97d08f90a6a462b9da86900e6b555a74"))])
  (pyim .
-       [(5 3 3)
+       [(5 3 4)
 	((emacs
 	  (27 1))
 	 (async
@@ -3300,7 +3314,7 @@
 	 (:authors
 	  ("Ye Wenbin" . "wenbinye@163.com")
 	  ("Feng Shu" . "tumashu@163.com"))
-	 (:commit . "64067b20ce0e964b1342b378180f24a1d4503797"))])
+	 (:commit . "f22c20f2e6af55b3a758defabe4c842fb94cde2b"))])
  (pyim-basedict .
 		[(0 5 4)
 		 nil "The default pinyin dict of pyim" tar
@@ -4342,7 +4356,7 @@
 		   (:url . "https://elpa.gnu.org/packages/uniquify-files.html")
 		   (:commit . "1d76b4f0e283afaff2be053d85f8726ffc3abd6e"))])
  (urgrep .
-	 [(0 4 1)
+	 [(0 5 0)
 	  ((emacs
 	    (27 1))
 	   (compat
@@ -4352,7 +4366,7 @@
 	  "Universal recursive grep" tar
 	  ((:url . "https://github.com/jimporter/urgrep")
 	   (:keywords "grep" "search")
-	   (:commit . "8169f5b5646b606d1273e1230aaf827cdd44a770"))])
+	   (:commit . "df0bb61b3b99c9d1dabec42cb560a84230d20a4e"))])
  (url-http-ntlm .
 		[(2 0 5)
 		 ((cl-lib

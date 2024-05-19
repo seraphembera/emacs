@@ -21,7 +21,7 @@
 ;; dashboard插件
 (require 'package-dashboard)
 ;; vterm插件
-;; (require 'package-vterm)
+(require 'package-vterm)
 ;; posframe插件
 (require 'package-posframe)
 ;; which-key插件
@@ -35,7 +35,17 @@
 ;; centered-window-mode插件
 (require 'package-centered-window-mode)
 ;; awesome-pair插件
-(require 'package-awesome-pair)
+;; (require 'package-awesome-pair)
+;; rust-mode插件
+(require 'package-rust-mode)
+;; popwin插件
+(require 'package-popwin)
+;; vterm-posframe插件
+(require 'package-vterm-posframe)
+;; posframe-project-term插件
+(require 'package-posframe-project-term)
+;; vterm-toggle插件
+(require 'package-vterm-toggle)
 
 
 (provide 'init-packages)

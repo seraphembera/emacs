@@ -1,0 +1,10 @@
+(use-package popwin
+  :load-path
+  "~/.emacs.d/lisp/local/popwin"
+  "~/.emacs.d/lisp/local/popwin"
+  )
+
+(popwin-mode 1)
+
+
+(provide 'package-popwin)
